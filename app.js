@@ -2,6 +2,9 @@ window.addEventListener('load', () => {
 	todos = JSON.parse(localStorage.getItem('todos')) || [];
 	const nameInput = document.querySelector('#name');
 	const newTodoForm = document.querySelector('#new-todo-form');
+	
+	const year = document.getElementById("year");
+	year.textContent = new Date().getFullYear();
 
 	const username = localStorage.getItem('username') || '';
 
