@@ -235,3 +235,14 @@ input:checked ~ .bubble::after {
 	text-decoration: line-through;
 	color: var(--grey);
 }
+
+.footer{
+    margin-top: 1.5rem;
+    padding: 1.2rem;
+    background-color: #EA40A4;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
